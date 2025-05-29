@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true
+  },
+  "include": ["server/**/*"]
+} 
